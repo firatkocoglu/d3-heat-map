@@ -1,0 +1,16 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#tooltip {
+  opacity: 0;
+  padding: 2rem;
+  width: 300px;
+  height: fit-content;
+  border: 1px solid black;
+  border-radius: 10%;
+  transform: translate(550px, -50px);
+  transition: opacity 0.1s;
+}
